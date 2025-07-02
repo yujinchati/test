@@ -1587,3 +1587,15 @@ table.type01 td p {
 	top: -30px;
 	cursor: pointer;
 }
+@media not all and (min-resolution:.001dpcm) {
+  @supports (-webkit-appearance:none) {
+    .order input[type="text"].inp, .order input[type="password"].inp {
+      z-index: 1;
+      position: relative;
+    }
+		.btn_wrap .btn{
+			      z-index: 1;
+      position: relative;
+		}
+  }
+}
