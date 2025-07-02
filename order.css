@@ -1597,5 +1597,8 @@ table.type01 td p {
 			      z-index: 1;
       position: relative;
 		}
+		input::placeholder {
+			overflow: visible;
+		}
   }
 }
